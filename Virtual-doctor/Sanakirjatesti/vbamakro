@@ -1,0 +1,35 @@
+Option Compare Text
+' Sub joka pyörittää sanalistaa ja vertailee ilman capseja
+
+Sub TestaaMua()
+' Pyörittelee Sanat-sivulta sanapareja. 6.12.2021 Jari Hiltunen
+Dim SanaAlue As Range
+Dim SanaEng
+Dim SanaSuo
+Dim SanaIn
+Dim Vastaus As Variant
+Dim Oikein As Integer
+Dim Vaarin As Integer
+
+' Sanojen alue
+Set SanaAlue = Worksheets("Sanat").Range("A3:B290")
+
+Do Until Vastaus = "stop"
+    SatunnainenRivi = Int(SanaAlue.Rows.Count * Rnd + 1)
+    SanaEng = SanaAlue.Range("B" & SatunnainenRivi).Value
+    SanaSuo = SanaAlue.Range("A" & SatunnainenRivi).Value
+    Vastaus = InputBox("Suomenna: " & SanaEng & vbNewLine & "Oikein: " & Oikein & vbNewLine & "Väärin: " & Vaarin, "Englannista Suomeksi käännös")
+            If StrPtr(Vastaus) = 0 Then
+                Vastaus = "stop"
+            ElseIf Vastaus = vbNullString Then
+                MsgBox ("Kirjoita jotain!")
+            ElseIf Vastaus = SanaSuo Then
+                MsgBox ("Oikein! Todella hienoa!")
+            Oikein = Oikein + 1
+            Else
+                MsgBox ("Väärin. Sana oli: " & SanaSuo)
+                Vaarin = Vaarin + 1
+            End If
+Loop
+
+End Sub
