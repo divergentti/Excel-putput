@@ -97,5 +97,3 @@ Do Until Vastaus = "stop" Or Kysytty = (UBound(KysyRivi) - LBound(KysyRivi) + 1)
 Loop
 
 End Sub
-
-
