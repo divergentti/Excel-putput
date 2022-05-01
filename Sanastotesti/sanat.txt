@@ -1,0 +1,348 @@
+Jari Hiltunen 11.12.2021	
+Makro lukee A3 ja B3 sarakkeista alkaen rivejä niin pitkään kunnes tulee tyhjä. Voit siis lisätä sanoja väliin tai loppuun!	
+Absolutisti	Total abstainer
+Absolutisti	Teetotaller
+Adoptiotuki	Adoption grant
+Aiheuttaa pelkoa	Arouse fear
+Aivohalvaus	Stroke
+Aivokalvontulehdus	Meningitis
+Alaikäinen	Underage
+Alakoulu	Primary school
+Alkometri	Breathalyser
+Ammatillisen kuntoutuksen palvelu	Vocational rehabilitation services
+Ammatillinen perhekoti	Professional foster home
+Ammattikoulu	Vocational institution
+Ammattikoulu	Initial vocational education
+Ammattikorkeakoulu	Polytechnic
+Ammattikorkeakoulu	University of applied sciences
+Ammattiopinnot	Professional studies
+Annos	Dose
+Antaa	To provide
+Asiakassuunnitelma	Client plan
+Asumislisä	Housing supplement
+Asumistuki	Housing allowance
+Ateriatuki	Meal subsidy
+Avioehto	Pre-nuptial agreement
+Avioliittosovittelu	Conciliation in divorce
+Avoin	Overt
+Avohoito	Non-institutional care
+Avoliitto	Common law marriage
+Edistää	To promote
+Elatusmaksu	Child alimony
+Ensihoitaja	Emergency Nurse
+Ehkäisy	Contraception
+Ennenaikainen	Premature
+Eristäytyminen	Isolation
+Erityisopetus	Special needs education
+Erottaa koulusta	Expel from school
+Esiintyvyys	Prevalence
+Esiopetus	Pre-primary education
+Haalarit	Overalls
+Haitallinen	Detrimental
+Halventaa	Demean
+Hinkuyskä	Whooping cough
+Helistin	Rattle
+Henkilövuokraus	Hiring out of personnel service
+Hoitovapaa	Care leave
+Hoivakoti	Residental home
+Holhooja	Guardian
+Huoleton	Casual
+Huolissaan	Distraught
+Huollettava	Dependent
+Huoltajuus	Custody
+Huostaanotettu lapsi	Child committed to care
+Huumepoliklinikka	Outpatient clinic for abusers
+Hylkääminen	Abandonment
+Hyväksikäyttö	Child abuse
+Hyödyttää	Benefit
+Häpeissään	Ashamed
+Ihottuma	Rash
+Ikätoveri	Peer
+Iskias	Sciatica
+Itsensä laiminlyönti	Self Neglet
+Itseluottamus	Self-confidence
+Itsenäisyys	Self-reliance
+Itseopiskelu	Independent study
+Isyysraha	Paternity allowance
+Jalkasieni	Athlete's foot
+Jalkaterapeutti	Podiatrist
+Jengityöntekijä	Community worker for young people
+Jäädä	To remain
+Kaide	Handrail
+Kainalosauva	Crutch
+Kammo	Phobia
+Kandidaatin tutkinto	Bacherlor's degree
+Kansaneläke	National pension
+Katkaisuhoito	Detoxification
+Katkaisuklinikka	Detoxification clinic
+Kattaa	To cover
+Kattila	A soucepan
+Kauhistunut	Appalled
+Kaulatuki	Cervival collar
+Kehitysvammaohjaaja	Councellor for the mentally handicapped
+Kehitysvammaisuus	Intellectual disability
+Kenkälusikka	Shoe horn
+Keskikorvantulehdus	Otitis media
+Keuhkoputkentulehdus	Bronchitis
+Kevätlukukausi	Spring semester
+Kierukka	Intra Uterus Device
+Kihti	Gout
+Kiilatyyny	Wedge cushion
+Kohtaus	Seizure
+Kollega	A Counterpart
+Kotiavustaja	Home helper
+Kotihoidontuki	Home care allwance
+Kotouttamistuki	Integration allowance
+Korvaaminen	Substitution
+Koulukuraattori	School social worker
+Koulutusala	Field of study
+Koulutusjohtaja	Head of degree programme
+Kouristukset	Convulsions
+Kunnallinen	Municipal
+Kuntoutua	Rehalibiate
+Kurkkumätä	Diphteria
+Kynnysliuska	Threshold tramp
+Känsä	Corn
+Käsittelytaidot	Manipulative skills
+Käsipainot	Dumbbels
+Kätilö	Midwife
+Laiminlyönti	Neglet
+Laitoshoito	Institutional care
+Laittaa välit poikki	Disown
+Lapsen etu	The best interest of the child
+Lapseneläke	Orphan's pension
+Lapsilisä	Child benefit
+Lapsiperhe	A family with children
+Lapsityö	Child labour
+Lastenhoitaja	Children nurse
+Lastenkoti	Children's home
+Lastenrattaat	Push chair
+Lastenvaunut	Pram
+Lastensairaanhoitaja	Paediatric nurse
+Lastensuojelu	Child welfare
+Lastensuojelutyöntekijä	Child welfare worker
+Lastensuojeluilmoitus	Child welfare notification
+Lastensuojelulaitos	Child welfare institution
+Lastentarhanopettaja	Kinderkarten teacher
+Lehtori	Lecturer
+Leikki-ikäinen	A toddler
+Leikkikenttä	Playground
+Levottomuus	Agitation
+Leskeneläke	Spouse's pension
+Liukulauta	Sliding transfer board
+Liuotin	Solvent
+Loru	A rhyme
+Luento	Lecture
+Luomimuutos	Change in mole
+Luopua	Abandon
+Läheisneuvonpito	Family group conference
+Läheneminen	A convergence
+Lähestymiskielto	A restrainin order
+Lähihoitaja	Practical nurse
+Lähiopiskelu	Contact training
+Lähisuhdeväkivalta	Intimate partner violence
+Lähisukulainen	Next of kin
+Lähisukulainen	Nearest relative
+Monimuoto-opetus	Multi modal teaching
+Muistuttaa jotain	Resemble
+Muovailuvaha	Playdough
+Murrosikäinen	An adolescent
+Muuntokoulutus	Retraining and upgrading of qualifications
+Myllyhoito	Minnesota model
+Määräaikainen työsopimus	Fixed-term work contract
+Neuvola	Child health centre
+Neuvonta	Councelling
+Nielurisatulehdus	Tonsillitis
+Niveltulehdus	Arthritis
+Nokkosrokko	Hives
+Nuorisokeskus	Youth centre
+Nuorisorikollisuus	Juvenile delingquency
+Nuorisorikollinen	Juvenile delinguent
+Nuorisotyöntekijä	Youth worker
+Nuorten turvatalo	Emergency youth shelter
+Nuuskata	Snort
+Ohjaus	Guidance
+Omistushaluinen käytös	Possessive behavior
+Ontelosyylä	Molluscum contagiosum
+Opinnäytetyö	Bacherlor's thesis
+Opintokokonaisuus	Study module
+Opintolainan valtionosuus	Government loan guarantee
+Opintolaina	Study loan
+Opintoraha	Study grant
+Opinto-ohjaaja	Stundent counsellor
+Opintosuoriteote	Transcript of records
+Opintotuki	Student financial aid
+Opintotukilautakunta	Financial aid committee
+Opiskelijavalinta	Student admission
+Opiskeluoikeus	Study entitlement
+Opiskelipaikan vastaanotto	Enrolment, registration
+Opiskelutodistus	Registration certificate
+Oppisopimus	Apprenticeship training
+Pahoinpitely	Child battery
+Pahoinvointi	Nausea
+Paita	Wrapover vest (vauvalla)
+Pakkohuostaanotto	Compulsory admission
+Palvelutalo	Residental care home
+Parisuhdeväkivalta	Marital violence
+Pastilli	Lozenge
+Pelottelu	Intimidation
+Perhehoitaja	Family carer
+Perheenhuoltaja	Family's provider
+Perheiden yhdistäminen	Family reunification
+Perhepäivähoitaja	Childminder, day care mother
+Perhepäivähoidon ohjaaja	Family day care supervisor
+Perheneuvoja	Family counsellor
+Peruspäiväraha	Basic allowance
+Peräpukamat	Hemorrhoids
+Polvituki	Knee stablizing brace
+Potkuhousut	Rompers
+Potta	Pot
+Pururengas	Teething ring
+Päähänpinttymä	Obsession
+Rajoitustoimenpiteet	Restrictive measures
+Ripuli	Diarrhoea
+Rollaattori	Wheeled walking frame
+Ruokkia	To feed
+Saada työttömyyskorvausta	Be on the dole, be on welfare
+Saada rahat riittämään	To make ends meet
+Sappikivet	Gallstones
+Seimi	Cresh
+Selkätuki	Back brace
+Selviytyä	To cope
+Seuraus	Consequence
+Sietää	To bear
+Sijaishoito	Foster care
+Sijaisvanhemmat	Foster parents
+Sijaiskoti	Foster home
+Sijoitus	Placement
+Sikotauti	Mumps
+Sosiaalikasvattaja	Social educator
+Sosiaalipäivystys	Emergency social services
+Sosiaalityöntekijä	Social worker
+Sotilasavustus	Conscript's allowance
+Suojapuku	Snowsuit
+Sukkahousut	Tights
+Sulkeutunut	Withdrawn
+Suojatyö	Sheltered employment
+Suonikohjut	Varicose veins
+Sydämentykytys	Palpitations
+Sydämen sivuääni	Heart murmur
+Syylä	Wart
+Takavarikointi	Confiscation
+Tapaamisoikeus	Visiting rights
+Tartuntapihdit	Pick-up reacher
+Tarveharkintainen työmarkkinatuki	Means-tested labour market subsidy
+Tasapainotyyny	Blalance cushion
+Tekijä tai syyllinen	Perpetrator
+Tiskin yli	Over the counter
+Toimintaterapeutti	Occupational Therapist
+Tossut	Bootees
+Tuettu	Subsidized
+Tukiasuminen	Sheltered housing
+Tuhkarokko	Measles
+Tuntua tyhjältä	Feel void
+Tutkintotodistus	Degree certificate
+Tutti	Dummy
+Työharjoittelu	Work placement
+Työnhakija	Applicant for job
+Työmarkkinatuki	Labour market subsidy
+Työttömyyspäiväraha	Unemployment allowance
+Täydentää	To complement
+Pakolliset opinnot	Compulsory studies
+Palkka	Wage
+Perheasioiden sovittelija	Family conciliator
+Perheneuvoja	Family counsellor
+Perhesijoitus	Family placement
+Perhepäivähoitaja	Child minder
+Perheväkivalta	Domestic violence
+Peruskoulu	Comprehensive school
+Pitkä	Tall
+Pohjakoulutus	Prior education
+Poissaoleva	Absent
+Päihde	Intoxicant
+Päihdeongelma	substance abuse problem
+Päihteiden väärinkäyttö	Substance abuse
+Päiväkeskus	Day  centre for elderly
+Päiväkoti	Kinderkarten, day care centre
+Päätäi	Head louse, lice
+Raajat	Limbs
+Raitis	Sober
+Romahtaa	To unravel
+Röntgenhoitaja	Radiographer
+Saattohoitokoti	Hospice
+Sairaanhoitaja	Registered Nurse
+Sairauspäiväraha	Sickness daily allowance
+Sielunhoito	Pastoral care
+Sijaishuolto	Substitute care
+Sisäistää	Internalize
+Sosionomi	Bachelor of Social Services
+Sortua uudelleen	Relapse
+Soveltuvuuskoe	Aptitude test
+Suhteessa johonkin	In proportion of sth
+Suuntautumisvaihtoehto	Specialization
+Synnynnäinen sairaus	Congenital condition
+Syylä	Wart
+Syöttötuoli	High chair
+Säilyttää	Maintain
+Tahdistin	Pacemaker
+Tarttumaton tauti	Non-communicable disease
+Takertuva	Clingy
+Terveyskeskus	Health care centre
+Terveydenhoitaja	Public Health Nurse
+Toimeentulotuki	Living allowance
+Turvakoti	Shelter for battered family members
+Työkyvyttömyyseläke	Disability pension
+Työmarkkinatuki	Labour market subsidy
+Työtodistus	Testimonial
+Työttömyyseläke	Unemployment pension
+Työttömyyspäiväraha	Unemployment allowance
+Työttömyysturva	Umemployment security
+Työttömyysturvalaki	Unemployment allowances act
+Työvoimaneuvoja	Employment counsellor
+Uhkaus	Threat
+Uhri	Victim
+Ulkoistaa	Externalize
+Ulottaa	Extent
+Uusperhe	Blended family
+Vaippa	Nappy
+Valintaperuste	Admission criteria
+Valintakiintiö	Annual intake quota
+Valintakoe	Entrance examination
+Vammaistuki	Disability allowance
+Vanhempainraha	Parental allowance
+Vanhempainloma	Parental leave
+Vanhuuseläke	Old-age pension
+Vanhuuden dementia	Senile dementia
+Varhennettu vanhuuseläke	Early old-age pension
+Varmistaa jotakin	To ensure sth
+Vastaavasti	Correspondingly
+Vastaavuus	Equivalence
+Vastaanottokoti	Reception home
+Vauvan sänky	A cot
+Vertaistuki	Peer support
+Vesirokko	Chicken pox
+Viitata johonkin	To suggest
+Virtuaalikiusaaminen	Cyberbullying
+Vierekkäinen	Adjacent
+Vieroitusoire	Withdrawal symptoms
+Vihurirokko	German measles
+Viihdehuumeet	Regretional drugs
+Virtsatiekivi	Urethral calculus
+Virtsarakkotulehdus	Cystitis
+Vuodeosasto	Health centre ward
+Välitys	Advocacy
+Väsymys	Fatigue
+Ydinperhe	Nuclear family
+Yhdistää	To incorporate
+Yhteishaku	Joint application system
+Yksilöllinen varhaiseläke	Individual early retirement pension
+Yhteishuoltajuus	Joint custody
+Yksinhuoltajaperhe	Single parent family
+Ylioppilaskunta	Student union
+Yliopettaja	Principal lecturer
+Ylioppilastutkinto	Matriculation examination
+Yläkoulu	Secondary school
+Yskös	Sputum
+Yrityspalvelu	Self-employment service
+Äitiysavustus	Maternity grant
+Äänenkäheys	Hoarseness
