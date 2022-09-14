@@ -22,12 +22,24 @@
 '
 Option Compare Text
 Option Explicit
+Public Osallistujia As Integer
 
 Sub LomakeTayta()
 ' Nostetaan Tietolomake ylimmäiseksi ja kysellään tiedot
+' Ensimmäisen täytettävän sliden järjestysnumero on oltava 4!
+' Älä manipuloi lomakkeen tai kenttien nimiä. Ne on osana koodia!
+'
 On Error GoTo Whoa
 
+Application.WindowState = ppWindowMinimized ' ppWindowMaximized
+
+If SlideShowWindows.Count = 0 Then
+  MsgBox ("Käynnistä Slideshow F5-näppäimellä ensin!")
+  Exit Sub
+End If
+
 NollaaLomake
+Osallistujia = 0
 TietoLomake.Show
 
 With TietoLomake.Os1Nimi
@@ -35,22 +47,27 @@ With TietoLomake.Os1Nimi
 .SelStart = 0
 End With
 
-
-With SlideShowWindows(1).View
-    .GotoSlide 4
-End With
+If Osallistujia > 0 Then
+    With SlideShowWindows(1).View
+        .GotoSlide 4
+    End With
+Else
+   MsgBox ("Osallistujia ei ollut. Moikka.")
+End If
 
 LetsContinue:
     Exit Sub
 
 Whoa:
     MsgBox ("Pahus, tuli virhe: " & Err.Description)
-    ' Resume LetsContinue
+    Resume LetsContinue
 
 
 End Sub
 
 Private Sub NollaaLomake()
+' Tämä proseduuri asettaa lomakkeen ja slidet 4-12 alkutilanteeseen.
+
 Dim objPresentaion As Presentation
 Dim objSlide As Slide
 Dim objTextBox As Shape
