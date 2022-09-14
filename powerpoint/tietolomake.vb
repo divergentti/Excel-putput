@@ -1,4 +1,6 @@
-Dim Osallistujia As Integer
+Option Compare Text
+Option Explicit
+
 Dim objPresentaion As Presentation
 Dim objSlide As Slide
 Dim objTextBox As Shape
@@ -271,15 +273,14 @@ If KeyCode = vbKeyReturn Then
  Set objPresentaion = ActivePresentation
  Set objSlide = objPresentaion.Slides.Item(4) ' Monesko slide
  Set objTextBox = objSlide.Shapes.Item(1) ' Tämä on ylin otsikkorivi
- objTextBox.TextFrame.TextRange.Text = TietoLomake.Os1Omin & " " & TietoLomake.Os1Nimi ' Nimi ja ominaisuus
+ objTextBox.TextFrame.TextRange.Text = TietoLomake.Os1Omin & " " & TietoLomake.Os1Nimi & " on selvästi puolustaja!" ' Nimi ja ominaisuus"
  Set objTextBox = objSlide.Shapes.Item(2) ' Tämä on tarinan alue
  ' Seuraavassa on tarina, johon jutut lisätään
  objTextBox.TextFrame.TextRange.Text = _
-    "Hänen luonteepiirteistään vahvin on " & TietoLomake.Piirre1_1 & vbNewLine & _
-     "Miesten seurassa hän on " & TietoLomake.Piirre2_1 & vbNewLine & _
-     "Naisten seurassa hän on " & TietoLomake.Piirre3_1 & vbNewLine & _
-     "Seurustellessaan hän on " & TietoLomake.Piirre4_1 & vbNewLine & _
-     "Kotona hän on " & TietoLomake.Piirre5_1
+    "Puolustaja on yleensä " & TietoLomake.Piirre1_1 & ", mikä on epätyypillinen luonteenpiirre introverteille persoonille. " _
+    & "Hän on " & TietoLomake.Piirre2_1 & ", mutta hän ei käytä sitä tiedon ja nippelitiedon tallentamiseen, vaan painaa mieleensä asioita ihmisistä ja heidän elämästään." & vbNewLine & _
+     "Mitä tulee lahjojen antamiseen, puolustaja on vertaansa vailla. Hän on " & TietoLomake.Piirre3_1 & " ja " & TietoLomake.Piirre4_1 & " lisäämään herkkyyttä ilmaisemaan anteliaisuuttaan tavalla, joka koskettaa vastapuolta." & vbNewLine & _
+     "Toisinaan " & TietoLomake.Piirre5_1 & " tulee esiin vain työntekijöiden keskuudessa, joita puolustaja todella pitää henkilökohtaisena ystävänään, perheen keskuudessa puolustajan tunneilmaisu pääse todella valloilleen. "
  ActivePresentation.Slides(4).SlideShowTransition.Hidden = msoFalse ' Näytetään slide
  ' Slide valmis
     If Osallistujia >= 2 Then
