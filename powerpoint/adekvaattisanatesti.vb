@@ -23,6 +23,10 @@
 Option Compare Text
 Option Explicit
 Public Osallistujia As Integer
+Public MinimiMerkit As Integer
+Public NimetJaOminaisuudet(8, 7) As String ' 8 nimeä, ominaisuus + 5 persoonallisuutta - aloitus arvosta 1
+Public Tarinat(8, 2) As String '  2 eri otsikkoa ja 8 eri tarinaa
+
 
 Sub LomakeTayta()
 ' Nostetaan Tietolomake ylimmäiseksi ja kysellään tiedot
@@ -40,6 +44,7 @@ End If
 
 NollaaLomake
 Osallistujia = 0
+MinimiMerkit = 3
 TietoLomake.Show
 
 With TietoLomake.Os1Nimi
@@ -53,17 +58,25 @@ If Osallistujia > 0 Then
     End With
 Else
    MsgBox ("Osallistujia ei ollut. Moikka.")
+   TietoLomake.Hide
+   ActivePresentation.SlideShowWindow.View.Exit
 End If
 
 LetsContinue:
     Exit Sub
 
 Whoa:
+    TietoLomake.Hide
+    ActivePresentation.SlideShowWindow.View.Exit
     MsgBox ("Pahus, tuli virhe: " & Err.Description)
-    Resume LetsContinue
+   ' Resume LetsContinue
 
 
 End Sub
+
+
+
+
 
 Private Sub NollaaLomake()
 ' Tämä proseduuri asettaa lomakkeen ja slidet 4-12 alkutilanteeseen.
