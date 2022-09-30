@@ -86,7 +86,7 @@ Dim objSlide As Slide
 Dim objTextBox As Shape
 Dim x As Integer
 
-For x = 4 To 12
+For x = 4 To 14
  ' Nollataan tiedot
  Set objPresentaion = ActivePresentation
  Set objSlide = objPresentaion.Slides.Item(x) ' Monesko slide
@@ -104,8 +104,8 @@ For x = 4 To 12
  ' Slide valmis
 Next x
 
-' Piilotetaan slidet 4-12
-For x = 4 To 12
+' Piilotetaan slidet 4-14
+For x = 4 To 14
     ActivePresentation.Slides(x).SlideShowTransition.Hidden = msoTrue 'Muuta msoFalse jos haluat näyttää
 Next x
 
