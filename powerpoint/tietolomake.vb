@@ -42,6 +42,7 @@ If KeyCode = vbKeyReturn Then
         TietoLomake.Osallistuu = "Nimiä: " & Osallistujia
         TietoLomake.Osallistuu.Visible = True
         TietoLomake.Os1l2 = TietoLomake.Os1Nimi
+        TietoLomake.Os1l2.Visible = True
     End If
 End If
 
@@ -72,6 +73,7 @@ If KeyCode = 27 Then Unload Me
     TietoLomake.Os1l2.Visible = True
    Else
     TietoLomake.Os3Omin.Visible = True
+    TietoLomake.Os2l2 = TietoLomake.Os2Nimi
    End If
 End If
 End Sub
@@ -101,6 +103,7 @@ If KeyCode = vbKeyReturn Then
     TietoLomake.Os1l2.Visible = True
    Else
     TietoLomake.Os4Omin.Visible = True
+    TietoLomake.Os3l2 = TietoLomake.Os3Nimi
    End If
 End If
 End Sub
@@ -130,6 +133,7 @@ If KeyCode = 27 Then Unload Me
     TietoLomake.Os4l2 = TietoLomake.Os4Nimi
    Else
     TietoLomake.Os5Omin.Visible = True
+    TietoLomake.Os4l2 = TietoLomake.Os4Nimi
    End If
 End If
 End Sub
@@ -158,6 +162,7 @@ If KeyCode = 27 Then Unload Me
     TietoLomake.Os5l2 = TietoLomake.Os5Nimi
    Else
     TietoLomake.Os6Omin.Visible = True
+    TietoLomake.Os5l2 = TietoLomake.Os5Nimi
    End If
 End If
 End Sub
@@ -188,6 +193,7 @@ If KeyCode = 27 Then Unload Me
     TietoLomake.Os6l2 = TietoLomake.Os6Nimi
    Else
     TietoLomake.Os7Omin.Visible = True
+    TietoLomake.Os6l2 = TietoLomake.Os6Nimi
    End If
 End If
 End Sub
@@ -218,6 +224,7 @@ If KeyCode = vbKeyReturn Then
    Else
     TietoLomake.Os8Omin.Visible = True
     Osallistujia = 8
+    TietoLomake.Os7l2 = TietoLomake.Os7Nimi
     TietoLomake.Os8l2 = TietoLomake.Os8Nimi
     TietoLomake.Osallistuu = "Nimiä: " & Osallistujia
     ' Maksimi saatuvettu
@@ -309,6 +316,7 @@ If KeyCode = vbKeyReturn Then
   NimetJaOminaisuudet(1, 7) = TietoLomake.Piirre5_1.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
     If Osallistujia >= 2 Then
         TietoLomake.Piirre1_2.Visible = True
+        TietoLomake.Os2l2.Visible = True
         TietoLomake.Piirre1_2.SetFocus
         ElseIf Osallistujia = 1 Then
         Valmista
@@ -388,6 +396,7 @@ If KeyCode = vbKeyReturn Then
   NimetJaOminaisuudet(2, 7) = TietoLomake.Piirre5_2.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
   If Osallistujia >= 3 Then
       TietoLomake.Piirre1_3.Visible = True
+      TietoLomake.Os3l2.Visible = True
       TietoLomake.Piirre1_3.SetFocus
   ElseIf Osallistujia = 2 Then
       Valmista
@@ -467,6 +476,7 @@ If KeyCode = vbKeyReturn Then
   NimetJaOminaisuudet(3, 7) = TietoLomake.Piirre5_3.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
   If Osallistujia >= 4 Then
       TietoLomake.Piirre1_4.Visible = True
+      TietoLomake.Os4l2.Visible = True
       TietoLomake.Piirre1_4.SetFocus
    ElseIf Osallistujia = 3 Then
       Valmista
@@ -544,6 +554,7 @@ If KeyCode = vbKeyReturn Then
   NimetJaOminaisuudet(4, 7) = TietoLomake.Piirre5_4.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
     If Osallistujia >= 5 Then
       TietoLomake.Piirre1_5.Visible = True
+      TietoLomake.Os5l2.Visible = True
       TietoLomake.Piirre1_5.SetFocus
    ElseIf Osallistujia = 4 Then
       Valmista
@@ -620,6 +631,7 @@ If KeyCode = vbKeyReturn Then
    NimetJaOminaisuudet(5, 7) = TietoLomake.Piirre5_5.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
     If Osallistujia >= 6 Then
        TietoLomake.Piirre1_6.Visible = True
+       TietoLomake.Os6l2.Visible = True
        TietoLomake.Piirre1_6.SetFocus
     ElseIf Osallistujia = 5 Then
        Valmista
@@ -699,6 +711,7 @@ If KeyCode = vbKeyReturn Then
    NimetJaOminaisuudet(6, 7) = TietoLomake.Piirre5_6.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
    If Osallistujia >= 7 Then
        TietoLomake.Piirre1_7.Visible = True
+       TietoLomake.Os7l2.Visible = True
        TietoLomake.Piirre1_7.SetFocus
     ElseIf Osallistujia = 6 Then
        Valmista
@@ -778,6 +791,7 @@ If KeyCode = vbKeyReturn Then
    NimetJaOminaisuudet(7, 7) = TietoLomake.Piirre5_7.Value 'Nimi=1, Ominaisuus=3, 3-> piirteet
    If Osallistujia = 8 Then
        TietoLomake.Piirre1_8.Visible = True
+       TietoLomake.Os8l2.Visible = True
        TietoLomake.Piirre1_8.SetFocus
     ElseIf Osallistujia = 7 Then
        Valmista
@@ -916,6 +930,7 @@ End Sub
 Private Sub LuoEsitys()
 Dim x As Integer, y As Integer
 
+' Henkilötarinoiden osuus
 For x = 1 To Osallistujia
  LuoTarinat (x)
  y = Int((8 - 1 + 1) * Rnd + 1) ' satunnaisluku 1-8 valittavalle tarinalle
@@ -933,6 +948,20 @@ For x = 1 To Osallistujia
  ' Slide valmis
 Next x
  
+' Ryhmätarinan osuus slidet 13 ja 14
+Set objSlide = objPresentaion.Slides.Item(13) ' Monesko slide
+Set objTextBox = objSlide.Shapes.Item(1) ' Tämä on ylin otsikkorivi
+objTextBox.TextFrame.TextRange.Text = "Ryhmäanalyysi sivu 1/2"
+' Tarinan luonti
+
+ActivePresentation.Slides(13).SlideShowTransition.Hidden = msoFalse ' Näytetään slide
+ 
+Set objSlide = objPresentaion.Slides.Item(14) ' Monesko slide
+Set objTextBox = objSlide.Shapes.Item(1) ' Tämä on ylin otsikkorivi
+objTextBox.TextFrame.TextRange.Text = "Ryhmäanalyysi sivu 2/2"
+' Tarinan luonti
+ActivePresentation.Slides(14).SlideShowTransition.Hidden = msoFalse ' Näytetään slide
+ 
  
 End Sub
 
@@ -947,3 +976,6 @@ Unload Me
 
 End Sub
 
+Private Sub Ylakehys_Click()
+
+End Sub
